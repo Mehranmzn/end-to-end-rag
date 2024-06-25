@@ -49,3 +49,38 @@ The End-to-End RAG Pipeline project is designed to facilitate the process of loa
     python3 -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
+3. **Install Dependencies**
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. **Environment Variables**
+   ```sh
+   OPENAI_API_KEY=your_openai_api_key
+PINECONE_API_KEY=your_pinecone_api_key
+GROQ_API_KEY=your_groq_api_key
+LANGSMITH_API_KEY=your_langsmith_api_key
+```
+5. **Running the Streamlit App**
+```sh
+streamlit run app.py
+```
+or
+```sh
+pipenv streamlit run app.py
+```
+
+**Project Structure:**
+.
+├── README.md
+├── app.py
+├── run.py
+├── config
+│   ├── actions.py
+│   ├── config.py
+│   ├── config.yml
+│   ├── rails.co
+│   └── ...
+├── requirements.txt
+└── .env
+
+

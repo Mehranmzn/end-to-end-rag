@@ -2,6 +2,8 @@
 
 Welcome to the End-to-End Retrieval-Augmented Generation (RAG) Pipeline project! This repository provides a complete solution for building, deploying, and interacting with a RAG pipeline, leveraging various modern technologies including LangChain, Pinecone, OpenAI, and Streamlit.
 
+credits goes to :https://github.com/Vasanthengineer4949/End-to-End-RAG/tree/main
+
 ## Table of Contents
 
 - [Overview](#overview)

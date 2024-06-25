@@ -53,7 +53,11 @@ The End-to-End RAG Pipeline project is designed to facilitate the process of loa
    ```sh
    pip install -r requirements.txt
    ```
-4. **Environment Variables**
+   or
+   ```sh
+   Pipfile
+   ```
+5. **Environment Variables**
    ```sh
    OPENAI_API_KEY=your_openai_api_key
 PINECONE_API_KEY=your_pinecone_api_key
